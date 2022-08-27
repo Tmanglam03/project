@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffdd00;
+    /* background-image: url(pr1.png); */
+}
+.container{
+    width: 400px;
+    height: 400px;
+    /* border: 2px solid black; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:  50%;
+    top: 50%;
+    border-radius: 50%;
+    box-shadow: 15px 15px 30px black,
+                -15px -15px 30px #ffff00;
+    justify-content: center;
+    /* display: flex;
+    align-items: center; */
+}
+
+.watch{
+    width: 325px;
+    height: 325px;
+    /* border: 2px solid black; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:  50%;
+    top: 50%;
+    border-radius: 50%;
+    background-image: url(pr1.png);
+    background-size: cover;
+    box-shadow: inset 15px 15px 30px black,
+                inset -10px -10px 10px #ffff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr{
+    width: 150px;
+    height: 150px;
+}
+
+.min{
+    width: 200px;
+    height: 200px;
+}
+
+.sec{
+    width: 225px;
+    height: 225px;
+}
+
+/* .hr, .min, .sec{
+    border: 2px solid black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .watch ::before
+{
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid white;
+} */
+
+/* .hr::before
+{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 75px;
+    background-color: black;
+    z-index: 10;
+} */
+
+/* .min::before
+{
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 90px;
+    background-color: black;
+    z-index: 7;
+}
+
+.sec::before */
+/* {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    z-index: 3;
+}  */
+
+#hr, #min, #sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hr{
+    width: 2%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+    /* border-radius: 50%; */
+}
+#min{
+    width: 1.8%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+    /* border-radius: 50%; */
+}
+#sec{
+    width: 1.5%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    border-radius: 10%;  
+}
