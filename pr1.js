@@ -28,3 +28,6 @@ setInterval(() => {
     sec.style.transform = `rotate(${srotation}deg)`;
 }, 1000);
 
+
+nam = document.getElementById('click');
+
